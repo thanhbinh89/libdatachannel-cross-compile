@@ -1,6 +1,7 @@
 # libdatachannel - C/C++ WebRTC network library
 
-# NOTE: fix bug for camera yi-hack file: udp.c, line: 63, hints.ai_family = AF_INET;
+# NOTE: fix bug for camera yi-hack
+## deps/libjuice file: udp.c, line: 63, hints.ai_family = AF_INET;
 
 [![Build with OpenSSL](https://github.com/paullouisageneau/libdatachannel/actions/workflows/build-openssl.yml/badge.svg)](https://github.com/paullouisageneau/libdatachannel/actions/workflows/build-openssl.yml)
 [![Build with GnuTLS](https://github.com/paullouisageneau/libdatachannel/actions/workflows/build-gnutls.yml/badge.svg)](https://github.com/paullouisageneau/libdatachannel/actions/workflows/build-gnutls.yml)
