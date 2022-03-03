@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes -Werror -g  -rdynamic CMakeFiles/test_libmgmt.dir/test_libmgmt.c.o CMakeFiles/test_libmgmt.dir/programs_helper.c.o  -o test_libmgmt  ../usrsctplib/libusrsctp.a -lpthread 

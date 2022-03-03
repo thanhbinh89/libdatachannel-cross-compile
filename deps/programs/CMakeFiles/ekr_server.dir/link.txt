@@ -1,0 +1,1 @@
+/usr/bin/cc  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes -Werror -g  -rdynamic CMakeFiles/ekr_server.dir/ekr_server.c.o CMakeFiles/ekr_server.dir/programs_helper.c.o  -o ekr_server  ../usrsctplib/libusrsctp.a -lpthread 
